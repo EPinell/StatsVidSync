@@ -38,8 +38,8 @@
             this.textBox_results = new System.Windows.Forms.TextBox();
             this.button_processXml = new System.Windows.Forms.Button();
             this.groupBox_Duration = new System.Windows.Forms.GroupBox();
-            this.label_durationInfo = new System.Windows.Forms.Label();
             this.comboBox_duration = new System.Windows.Forms.ComboBox();
+            this.label_durationInfo = new System.Windows.Forms.Label();
             this.groupBox_finalCutXml.SuspendLayout();
             this.groupBox_soloStatsXml.SuspendLayout();
             this.groupBox_results.SuspendLayout();
@@ -128,7 +128,7 @@
             // 
             // button_processXml
             // 
-            this.button_processXml.Location = new System.Drawing.Point(551, 111);
+            this.button_processXml.Location = new System.Drawing.Point(551, 110);
             this.button_processXml.Name = "button_processXml";
             this.button_processXml.Size = new System.Drawing.Size(75, 23);
             this.button_processXml.TabIndex = 6;
@@ -148,16 +148,6 @@
             this.groupBox_Duration.Text = "Clip Duration";
             this.groupBox_Duration.Enter += new System.EventHandler(this.groupBox1_Enter_1);
             // 
-            // label_durationInfo
-            // 
-            this.label_durationInfo.AutoSize = true;
-            this.label_durationInfo.Location = new System.Drawing.Point(81, 28);
-            this.label_durationInfo.Name = "label_durationInfo";
-            this.label_durationInfo.Size = new System.Drawing.Size(160, 13);
-            this.label_durationInfo.TabIndex = 1;
-            this.label_durationInfo.Text = "Choose clip duration in seconds.\r\n";
-            this.label_durationInfo.Click += new System.EventHandler(this.label1_Click);
-            // 
             // comboBox_duration
             // 
             this.comboBox_duration.FormattingEnabled = true;
@@ -173,6 +163,16 @@
             this.comboBox_duration.Size = new System.Drawing.Size(63, 21);
             this.comboBox_duration.TabIndex = 7;
             this.comboBox_duration.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // label_durationInfo
+            // 
+            this.label_durationInfo.AutoSize = true;
+            this.label_durationInfo.Location = new System.Drawing.Point(81, 28);
+            this.label_durationInfo.Name = "label_durationInfo";
+            this.label_durationInfo.Size = new System.Drawing.Size(160, 13);
+            this.label_durationInfo.TabIndex = 1;
+            this.label_durationInfo.Text = "Choose clip duration in seconds.\r\n";
+            this.label_durationInfo.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form1
             // 

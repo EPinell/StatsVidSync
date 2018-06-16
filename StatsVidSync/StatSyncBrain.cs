@@ -376,6 +376,7 @@ namespace StatsVidSync
                     return setStartTime;
                 }
 
+
             if (SetStartTimesDict.TryGetValue("Set 2 Start", out dictSetStart))
             {
                 SetStartTimesDict.Remove("Set 2 Start");

@@ -38,7 +38,6 @@ namespace StatsVidSync
                 FcpXmlFilePath = Ofd.FileName;
             }
         }
-
         private void Button_processXml_Click(object sender, EventArgs e)
         {
             if (FcpXmlFilePath != null && SoloStatsXmlFilePath != null)
