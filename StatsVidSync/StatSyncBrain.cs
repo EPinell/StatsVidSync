@@ -365,6 +365,7 @@ namespace StatsVidSync
             offsetMilliseconds = dictSetStart - originalStartTime;
         }
 
+
         private static decimal GetStartTimeForSet()
         {
             decimal setStartTime = 0;
